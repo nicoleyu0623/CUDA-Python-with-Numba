@@ -3,18 +3,15 @@
 # Remember that we can't use numpy math function on the GPU...
 # from numpy import exp
 import math
-
-# Consider modifying the 3 values in this cell to optimize host <-> device memory movement
-normalized = np.empty_like(greyscales)
-weighted = np.empty_like(greyscales)
-activated = np.empty_like(greyscales)
+from numba import vectorize
 
 d_greyscales = cuda.to_device(greyscales)
 d_weights = cuda.to_device(weights)
 
-d_normalized = cuda.to_device(noise)
-d_weighted = cuda.to_device(weighted)
-d_activated = cuda.to_device(normalized)
+# Consider modifying the 3 values in this cell to optimize host <-> device memory movement
+normalized = np.empty_like(d_greyscales)
+weighted = np.empty_like(d_greyscales)
+activated = np.empty_like(d_greyscales)
 
 # Modify these 3 function calls to run on the GPU
 @vectorize(['float32(float32)'], target='cuda')
