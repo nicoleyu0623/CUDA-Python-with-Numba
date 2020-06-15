@@ -1,0 +1,1581 @@
+2019-09-03 16:17:19,540 CRIT Supervisor running as root (no user in config file)
+2019-09-03 16:17:19,542 INFO supervisord started with pid 25
+2019-09-03 16:17:20,544 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 16:17:20,545 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 16:17:20,546 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 16:17:20,547 INFO spawned: 'nginx' with pid 30
+2019-09-03 16:17:20,558 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 16:17:20,559 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140374245406264 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 16:17:20,559 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140374245406408 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 16:17:20,559 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 16:17:20,559 DEBG received SIGCLD indicating a child quit
+2019-09-03 16:17:20,561 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140374245407488 for <Subprocess at 140374245334984 with name nginx in state STARTING> (stderr)>
+2019-09-03 16:17:21,030 DEBG 'jupyter_notebook' stderr output:
+[I 16:17:21.030 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 16:17:21,182 DEBG 'jupyter_notebook' stderr output:
+[W 16:17:21.182 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 16:17:21,186 DEBG 'jupyter_notebook' stderr output:
+[I 16:17:21.186 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 16:17:21,186 DEBG 'jupyter_notebook' stderr output:
+[I 16:17:21.186 NotebookApp] The Jupyter Notebook is running at:
+[I 16:17:21.186 NotebookApp] http://796cdd78580b:8888/gc8p6jEc/
+
+2019-09-03 16:17:21,186 DEBG 'jupyter_notebook' stderr output:
+[I 16:17:21.186 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 16:17:22,187 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 16:17:22,187 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 16:17:22,188 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 16:17:22,189 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 16:17:22,200 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 16:17:22,201 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140374245406552 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 16:17:22,201 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140374245406480 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 16:17:22,202 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 16:17:22,202 DEBG received SIGCLD indicating a child quit
+2019-09-03 16:17:24,204 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 16:17:24,205 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 16:17:24,217 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 16:17:24,218 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140374245405976 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 16:17:24,218 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140374245456640 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 16:17:24,218 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 16:17:24,218 DEBG received SIGCLD indicating a child quit
+2019-09-03 16:17:27,222 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 16:17:27,222 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 16:17:27,223 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 16:17:27,234 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 16:17:27,235 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140374245406192 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 16:17:27,235 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140374245456568 for <Subprocess at 140374245334624 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 16:17:27,236 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 16:17:27,236 DEBG received SIGCLD indicating a child quit
+2019-09-03 16:17:28,237 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 16:17:29,109 DEBG 'jupyter_notebook' stderr output:
+[W 16:17:29.109 NotebookApp] 404 GET / (127.0.0.1) 26.20ms referer=None
+
+2019-09-03 17:00:04,189 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:00:04,191 INFO supervisord started with pid 25
+2019-09-03 17:00:05,194 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 17:00:05,195 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:00:05,195 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 17:00:05,197 INFO spawned: 'nginx' with pid 30
+2019-09-03 17:00:05,211 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:00:05,212 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139655513699896 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:00:05,212 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 139655513700040 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:00:05,212 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:00:05,212 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:00:05,215 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 139655513701120 for <Subprocess at 139655513628616 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:00:05,677 DEBG 'jupyter_notebook' stderr output:
+[I 17:00:05.677 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:00:05,829 DEBG 'jupyter_notebook' stderr output:
+[W 17:00:05.829 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:00:05,833 DEBG 'jupyter_notebook' stderr output:
+[I 17:00:05.832 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:00:05,833 DEBG 'jupyter_notebook' stderr output:
+[I 17:00:05.833 NotebookApp] The Jupyter Notebook is running at:
+[I 17:00:05.833 NotebookApp] http://32e01f7b2a2e:8888/meE21vNR/
+[I 17:00:05.833 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:00:06,834 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:00:06,834 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:00:06,835 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:00:06,836 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:00:06,846 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:00:06,848 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139655513700184 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:00:06,848 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139655513700112 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:00:06,848 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:00:06,848 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:00:08,851 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:00:08,852 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:00:08,863 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:00:08,864 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139655513699608 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:00:08,864 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139655513750272 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:00:08,864 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:00:08,865 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:00:11,869 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:00:11,869 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:00:11,870 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 17:00:11,881 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:00:11,882 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139655513699824 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:00:11,882 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139655513750200 for <Subprocess at 139655513628256 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:00:11,882 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:00:11,883 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:00:12,884 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:02:38,051 DEBG 'jupyter_notebook' stderr output:
+[W 17:02:38.051 NotebookApp] 404 GET / (127.0.0.1) 26.09ms referer=None
+
+2019-09-03 17:02:40,144 DEBG 'jupyter_notebook' stderr output:
+[W 17:02:40.144 NotebookApp] 404 GET /0IRtDKx3/api/sessions?_=1567528623882 (127.0.0.1) 1.27ms referer=http://52.40.136.0:9380/0IRtDKx3/tree/tasks/task1/task
+
+2019-09-03 17:02:40,149 DEBG 'jupyter_notebook' stderr output:
+[W 17:02:40.149 NotebookApp] 404 GET /0IRtDKx3/api/terminals?_=1567528623883 (127.0.0.1) 0.96ms referer=http://52.40.136.0:9380/0IRtDKx3/tree/tasks/task1/task
+
+2019-09-03 17:02:41,268 DEBG 'jupyter_notebook' stderr output:
+[W 17:02:41.267 NotebookApp] 404 GET /gc8p6jEc/api/sessions?_=1567527693998 (127.0.0.1) 1.30ms referer=http://52.40.136.0:9380/gc8p6jEc/tree
+
+2019-09-03 17:02:41,274 DEBG 'jupyter_notebook' stderr output:
+[W 17:02:41.274 NotebookApp] 404 GET /gc8p6jEc/api/terminals?_=1567527693999 (127.0.0.1) 0.98ms referer=http://52.40.136.0:9380/gc8p6jEc/tree
+
+2019-09-03 17:09:30,731 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:09:30,734 INFO supervisord started with pid 24
+2019-09-03 17:09:31,736 INFO spawned: 'jupyter_notebook' with pid 27
+2019-09-03 17:09:31,737 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:09:31,737 INFO spawned: 'digits_srv' with pid 28
+2019-09-03 17:09:31,739 INFO spawned: 'nginx' with pid 29
+2019-09-03 17:09:31,749 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:09:31,750 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139877606753848 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:09:31,750 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 139877606753992 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:09:31,750 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:09:31,750 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:09:31,751 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 139877606755072 for <Subprocess at 139877606682568 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:09:32,224 DEBG 'jupyter_notebook' stderr output:
+[I 17:09:32.223 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:09:32,374 DEBG 'jupyter_notebook' stderr output:
+[W 17:09:32.373 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:09:32,377 DEBG 'jupyter_notebook' stderr output:
+[I 17:09:32.377 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:09:32,377 DEBG 'jupyter_notebook' stderr output:
+[I 17:09:32.377 NotebookApp] The Jupyter Notebook is running at:
+[I 17:09:32.377 NotebookApp] http://2d9db5ba6361:8888/SKJuIGc7/
+[I 17:09:32.377 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:09:33,378 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:09:33,379 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:09:33,380 INFO spawned: 'digits_srv' with pid 41
+2019-09-03 17:09:33,380 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:09:33,391 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:09:33,393 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139877606754136 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:09:33,393 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139877606754064 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:09:33,393 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:09:33,393 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:09:35,395 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:09:35,396 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:09:35,408 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:09:35,409 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139877606753560 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:09:35,409 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139877606804224 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:09:35,409 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:09:35,409 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:09:38,413 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:09:38,413 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:09:38,414 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:09:38,426 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:09:38,427 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139877606753776 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:09:38,427 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139877606804152 for <Subprocess at 139877606682208 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:09:38,427 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:09:38,427 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:09:39,429 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:09:56,996 DEBG 'jupyter_notebook' stderr output:
+[W 17:09:56.996 NotebookApp] 404 GET / (127.0.0.1) 25.95ms referer=None
+
+2019-09-03 17:10:05,917 DEBG 'jupyter_notebook' stderr output:
+[W 17:10:05.916 NotebookApp] 404 GET /meE21vNR/api/sessions?_=1567530168991 (127.0.0.1) 1.29ms referer=http://52.40.136.0:9380/meE21vNR/tree
+
+2019-09-03 17:10:05,921 DEBG 'jupyter_notebook' stderr output:
+[W 17:10:05.921 NotebookApp] 404 GET /meE21vNR/api/terminals?_=1567530168992 (127.0.0.1) 0.95ms referer=http://52.40.136.0:9380/meE21vNR/tree
+
+2019-09-03 17:13:49,246 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:13:49,248 INFO supervisord started with pid 25
+2019-09-03 17:13:50,251 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 17:13:50,251 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:13:50,252 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 17:13:50,254 INFO spawned: 'nginx' with pid 30
+2019-09-03 17:13:50,264 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:13:50,265 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140399057851960 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:13:50,265 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140399057852104 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:13:50,265 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:13:50,266 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:13:50,266 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140399057853184 for <Subprocess at 140399057780680 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:13:50,751 DEBG 'jupyter_notebook' stderr output:
+[I 17:13:50.750 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:13:50,905 DEBG 'jupyter_notebook' stderr output:
+[W 17:13:50.905 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:13:50,909 DEBG 'jupyter_notebook' stderr output:
+[I 17:13:50.909 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:13:50,909 DEBG 'jupyter_notebook' stderr output:
+[I 17:13:50.909 NotebookApp] The Jupyter Notebook is running at:
+[I 17:13:50.909 NotebookApp] http://ea0440a49b49:8888/lnGwcArd/
+[I 17:13:50.909 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:13:51,910 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:13:51,910 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:13:51,911 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:13:51,912 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:13:51,923 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:13:51,924 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140399057852248 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:13:51,924 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140399057852176 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:13:51,924 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:13:51,924 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:13:53,927 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:13:53,928 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:13:53,939 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:13:53,940 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140399057851672 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:13:53,940 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140399057902336 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:13:53,940 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:13:53,940 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:13:56,944 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:13:56,944 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:13:56,945 INFO spawned: 'digits_srv' with pid 59
+2019-09-03 17:13:56,957 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:13:56,958 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140399057851888 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:13:56,958 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140399057902264 for <Subprocess at 140399057780320 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:13:56,958 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:13:56,958 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:13:57,960 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:18:46,719 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:18:46,722 INFO supervisord started with pid 25
+2019-09-03 17:18:47,724 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 17:18:47,725 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:18:47,726 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 17:18:47,727 INFO spawned: 'nginx' with pid 30
+2019-09-03 17:18:47,737 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:18:47,738 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140562067498552 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:18:47,738 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140562067498696 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:18:47,739 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:18:47,739 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:18:47,742 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140562067499776 for <Subprocess at 140562067427272 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:18:48,229 DEBG 'jupyter_notebook' stderr output:
+[I 17:18:48.228 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:18:48,388 DEBG 'jupyter_notebook' stderr output:
+[W 17:18:48.388 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:18:48,391 DEBG 'jupyter_notebook' stderr output:
+[I 17:18:48.391 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:18:48,391 DEBG 'jupyter_notebook' stderr output:
+[I 17:18:48.391 NotebookApp] The Jupyter Notebook is running at:
+[I 17:18:48.391 NotebookApp] http://076dc26c7d57:8888/swclcbCQ/
+[I 17:18:48.391 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:18:49,393 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:18:49,393 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:18:49,394 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:18:49,394 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:18:49,405 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:18:49,407 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140562067498840 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:18:49,407 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140562067498768 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:18:49,407 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:18:49,407 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:18:51,410 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:18:51,411 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:18:51,422 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:18:51,423 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140562067498264 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:18:51,423 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140562067548928 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:18:51,423 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:18:51,424 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:18:54,427 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:18:54,428 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:18:54,428 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 17:18:54,440 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:18:54,441 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140562067498480 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:18:54,441 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140562067548856 for <Subprocess at 140562067426912 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:18:54,441 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:18:54,441 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:18:55,442 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:23:33,437 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:23:33,439 INFO supervisord started with pid 25
+2019-09-03 17:23:34,441 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 17:23:34,442 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:23:34,443 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 17:23:34,444 INFO spawned: 'nginx' with pid 30
+2019-09-03 17:23:34,454 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:23:34,456 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140210170447416 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:23:34,456 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140210170447560 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:23:34,456 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:23:34,456 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:23:34,456 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140210170448640 for <Subprocess at 140210170376136 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:23:34,956 DEBG 'jupyter_notebook' stderr output:
+[I 17:23:34.956 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:23:35,120 DEBG 'jupyter_notebook' stderr output:
+[W 17:23:35.120 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:23:35,124 DEBG 'jupyter_notebook' stderr output:
+[I 17:23:35.123 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:23:35,124 DEBG 'jupyter_notebook' stderr output:
+[I 17:23:35.124 NotebookApp] The Jupyter Notebook is running at:
+[I 17:23:35.124 NotebookApp] http://11d2de3dea48:8888/eKdBAY1p/
+[I 17:23:35.124 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:23:36,125 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:23:36,125 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:23:36,126 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:23:36,126 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:23:36,138 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:23:36,139 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140210170447704 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:23:36,139 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140210170447632 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:23:36,139 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:23:36,139 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:23:38,142 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:23:38,143 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:23:38,154 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:23:38,155 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140210170447128 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:23:38,155 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140210170497792 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:23:38,155 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:23:38,155 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:23:41,159 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:23:41,160 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:23:41,160 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 17:23:41,172 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:23:41,173 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140210170447344 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:23:41,173 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140210170497720 for <Subprocess at 140210170375776 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:23:41,173 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:23:41,173 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:23:42,175 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:28:12,664 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:28:12,666 INFO supervisord started with pid 25
+2019-09-03 17:28:13,668 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 17:28:13,669 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:28:13,670 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 17:28:13,671 INFO spawned: 'nginx' with pid 30
+2019-09-03 17:28:13,681 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:28:13,683 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140193212950072 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:28:13,683 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140193212950216 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:28:13,683 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:28:13,683 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:28:13,685 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140193212951296 for <Subprocess at 140193212878792 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:28:14,190 DEBG 'jupyter_notebook' stderr output:
+[I 17:28:14.189 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:28:14,354 DEBG 'jupyter_notebook' stderr output:
+[W 17:28:14.354 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:28:14,358 DEBG 'jupyter_notebook' stderr output:
+[I 17:28:14.358 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:28:14,358 DEBG 'jupyter_notebook' stderr output:
+[I 17:28:14.358 NotebookApp] The Jupyter Notebook is running at:
+[I 17:28:14.358 NotebookApp] http://a27779bef30c:8888/lkrjkfal/
+[I 17:28:14.358 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:28:15,359 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:28:15,360 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:28:15,361 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:28:15,361 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:28:15,372 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:28:15,374 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140193212950360 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:28:15,374 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140193212950288 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:28:15,374 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:28:15,374 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:28:17,377 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:28:17,378 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:28:17,389 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:28:17,390 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140193212949784 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:28:17,390 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140193213000448 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:28:17,390 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:28:17,391 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:28:20,394 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:28:20,395 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:28:20,395 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 17:28:20,407 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:28:20,408 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140193212950000 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:28:20,408 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140193213000376 for <Subprocess at 140193212878432 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:28:20,408 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:28:20,408 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:28:21,410 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:47:09,646 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:47:09,649 INFO supervisord started with pid 25
+2019-09-03 17:47:10,651 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 17:47:10,652 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:47:10,653 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 17:47:10,654 INFO spawned: 'nginx' with pid 30
+2019-09-03 17:47:10,664 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:47:10,666 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140460045305400 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:47:10,666 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140460045305544 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:47:10,666 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:47:10,666 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:47:10,667 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140460045306624 for <Subprocess at 140460045234120 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:47:11,617 DEBG 'jupyter_notebook' stderr output:
+[I 17:47:11.617 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:47:11,634 DEBG 'jupyter_notebook' stderr output:
+[W 17:47:11.634 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:47:11,641 DEBG 'jupyter_notebook' stderr output:
+[I 17:47:11.641 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:47:11,641 DEBG 'jupyter_notebook' stderr output:
+[I 17:47:11.641 NotebookApp] 0 active kernels 
+[I 17:47:11.641 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/bxDX799g/
+[I 17:47:11.641 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:47:12,643 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:47:12,643 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:47:12,644 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:47:12,644 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:47:12,655 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:47:12,657 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140460045305688 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:47:12,657 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140460045305616 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:47:12,657 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:47:12,657 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:47:14,660 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:47:14,661 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:47:14,672 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:47:14,673 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140460045305112 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:47:14,673 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140460045355776 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:47:14,674 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:47:14,674 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:47:17,678 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:47:17,678 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:47:17,679 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 17:47:17,690 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:47:17,691 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140460045305328 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:47:17,691 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140460045355704 for <Subprocess at 140460045233760 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:47:17,692 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:47:17,692 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:47:18,693 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:48:07,913 DEBG 'jupyter_notebook' stderr output:
+[W 17:48:07.913 NotebookApp] 404 GET / (127.0.0.1) 23.47ms referer=None
+
+2019-09-03 17:51:09,099 DEBG 'jupyter_notebook' stderr output:
+[W 17:51:09.098 NotebookApp] 404 GET / (127.0.0.1) 1.25ms referer=None
+
+2019-09-03 17:51:31,330 DEBG 'jupyter_notebook' stderr output:
+[I 17:51:31.329 NotebookApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+
+2019-09-03 17:51:31,332 DEBG 'jupyter_notebook' stderr output:
+[W 17:51:31.332 NotebookApp] Notebook tasks/task1/task/Introduction to CUDA Python with Numba.ipynb is not trusted
+
+2019-09-03 17:51:35,300 DEBG 'jupyter_notebook' stderr output:
+[I 17:51:35.299 NotebookApp] Kernel started: 69620893-51f5-4e9e-9630-4f4d1fb0d42f
+
+2019-09-03 17:51:35,314 DEBG 'jupyter_notebook' stderr output:
+[I 17:51:35.314 NotebookApp] 302 GET /bxDX799g/notebooks/tasks/task1/task/images/DLI%20Header.png (127.0.0.1) 1.01ms
+
+2019-09-03 17:51:35,321 DEBG 'jupyter_notebook' stderr output:
+[I 17:51:35.320 NotebookApp] 302 GET /bxDX799g/notebooks/tasks/task1/task/images/numba_flowchart.png (127.0.0.1) 0.70ms
+
+2019-09-03 17:51:35,989 DEBG 'jupyter_notebook' stderr output:
+[I 17:51:35.989 NotebookApp] Adapting to protocol v5.1 for kernel 69620893-51f5-4e9e-9630-4f4d1fb0d42f
+
+2019-09-03 17:51:36,751 DEBG 'jupyter_notebook' stderr output:
+[W 17:51:36.750 NotebookApp] 404 GET /static/base/images/favicon.ico (127.0.0.1) 1.41ms referer=http://52.40.136.0:9380/bxDX799g/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2019-09-03 17:51:36,773 DEBG 'jupyter_notebook' stderr output:
+[W 17:51:36.772 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.01ms referer=http://52.40.136.0:9380/bxDX799g/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2019-09-03 17:51:36,857 DEBG 'jupyter_notebook' stderr output:
+[W 17:51:36.857 NotebookApp] 404 GET /static/base/images/favicon.ico (127.0.0.1) 1.22ms referer=http://52.40.136.0:9380/bxDX799g/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2019-09-03 17:51:51,549 DEBG 'jupyter_notebook' stderr output:
+[W 17:51:51.549 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.22ms referer=http://52.40.136.0:9380/bxDX799g/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2019-09-03 17:52:12,036 DEBG 'jupyter_notebook' stderr output:
+[I 17:52:12.035 NotebookApp] Saving file at /tasks/task1/task/solutions/monte_carlo_pi_solution.py
+
+2019-09-03 17:52:16,628 DEBG 'jupyter_notebook' stderr output:
+[I 17:52:16.628 NotebookApp] Saving file at /tasks/task1/task/solutions/monte_carlo_pi_solution.py
+
+2019-09-03 17:54:16,540 CRIT Supervisor running as root (no user in config file)
+2019-09-03 17:54:16,542 INFO supervisord started with pid 25
+2019-09-03 17:54:17,544 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 17:54:17,545 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:54:17,546 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 17:54:17,547 INFO spawned: 'nginx' with pid 30
+2019-09-03 17:54:17,558 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:54:17,559 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140597213813504 for <Subprocess at 140597213741000 with name nginx in state STARTING> (stderr)>
+2019-09-03 17:54:17,559 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140597213812280 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:54:17,559 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140597213812424 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:54:17,559 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:54:17,559 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:54:18,508 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:18.507 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 17:54:18,525 DEBG 'jupyter_notebook' stderr output:
+[W 17:54:18.525 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 17:54:18,532 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:18.532 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 17:54:18,532 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:18.532 NotebookApp] 0 active kernels 
+[I 17:54:18.532 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/0RU21j5U/
+
+2019-09-03 17:54:18,532 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:18.532 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 17:54:19,533 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:54:19,534 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:54:19,535 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 17:54:19,535 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 17:54:19,546 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:54:19,548 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140597213812568 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:54:19,548 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140597213812496 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:54:19,548 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:54:19,548 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:54:21,551 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:54:21,552 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 17:54:21,563 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:54:21,565 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140597213811992 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:54:21,565 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140597213862656 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:54:21,565 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:54:21,565 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:54:21,709 DEBG 'jupyter_notebook' stderr output:
+[W 17:54:21.709 NotebookApp] 404 GET / (127.0.0.1) 23.68ms referer=None
+
+2019-09-03 17:54:24,713 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 17:54:24,713 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 17:54:24,714 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 17:54:24,725 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 17:54:24,727 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140597213812208 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 17:54:24,727 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140597213862584 for <Subprocess at 140597213740640 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 17:54:24,727 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 17:54:24,727 DEBG received SIGCLD indicating a child quit
+2019-09-03 17:54:25,728 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 17:54:38,944 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:38.944 NotebookApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+
+2019-09-03 17:54:38,946 DEBG 'jupyter_notebook' stderr output:
+[W 17:54:38.946 NotebookApp] Notebook tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb is not trusted
+
+2019-09-03 17:54:43,788 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:43.788 NotebookApp] Kernel started: 49c79fcf-86fa-4aa3-b7c9-91482c850503
+
+2019-09-03 17:54:43,793 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:43.793 NotebookApp] 302 GET /0RU21j5U/notebooks/tasks/task2/task/images/DLI%20Header.png (127.0.0.1) 0.83ms
+
+2019-09-03 17:54:44,443 DEBG 'jupyter_notebook' stderr output:
+[I 17:54:44.443 NotebookApp] Adapting to protocol v5.1 for kernel 49c79fcf-86fa-4aa3-b7c9-91482c850503
+
+2019-09-03 17:56:44,143 DEBG 'jupyter_notebook' stderr output:
+[I 17:56:44.143 NotebookApp] Saving file at /tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb
+
+2019-09-03 17:56:44,144 DEBG 'jupyter_notebook' stderr output:
+[W 17:56:44.144 NotebookApp] Saving untrusted notebook tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb
+
+2019-09-03 18:06:44,077 DEBG 'jupyter_notebook' stderr output:
+[I 18:06:44.077 NotebookApp] Saving file at /tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb
+
+2019-09-03 18:08:44,187 DEBG 'jupyter_notebook' stderr output:
+[I 18:08:44.186 NotebookApp] Saving file at /tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb
+
+2019-09-03 18:08:55,548 DEBG 'jupyter_notebook' stderr output:
+[I 18:08:55.547 NotebookApp] Kernel restarted: 49c79fcf-86fa-4aa3-b7c9-91482c850503
+
+2019-09-03 18:08:56,360 DEBG 'jupyter_notebook' stderr output:
+[I 18:08:56.360 NotebookApp] Adapting to protocol v5.1 for kernel 49c79fcf-86fa-4aa3-b7c9-91482c850503
+
+2019-09-03 20:02:31,427 CRIT Supervisor running as root (no user in config file)
+2019-09-03 20:02:31,430 INFO supervisord started with pid 24
+2019-09-03 20:02:32,432 INFO spawned: 'jupyter_notebook' with pid 27
+2019-09-03 20:02:32,433 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:02:32,434 INFO spawned: 'digits_srv' with pid 28
+2019-09-03 20:02:32,435 INFO spawned: 'nginx' with pid 29
+2019-09-03 20:02:32,445 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:02:32,446 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139821138077240 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:02:32,447 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 139821138077384 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:02:32,447 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:02:32,447 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:02:32,447 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 139821138078464 for <Subprocess at 139821138005960 with name nginx in state STARTING> (stderr)>
+2019-09-03 20:02:33,382 DEBG 'jupyter_notebook' stderr output:
+[I 20:02:33.382 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 20:02:33,399 DEBG 'jupyter_notebook' stderr output:
+[W 20:02:33.399 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 20:02:33,406 DEBG 'jupyter_notebook' stderr output:
+[I 20:02:33.406 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 20:02:33,406 DEBG 'jupyter_notebook' stderr output:
+[I 20:02:33.406 NotebookApp] 0 active kernels 
+[I 20:02:33.406 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/xPsNDnm1/
+[I 20:02:33.406 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 20:02:34,407 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 20:02:34,408 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:02:34,409 INFO spawned: 'digits_srv' with pid 41
+2019-09-03 20:02:34,409 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 20:02:34,420 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:02:34,421 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139821138077528 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:02:34,421 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139821138077456 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:02:34,421 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:02:34,421 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:02:36,424 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:02:36,425 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 20:02:36,436 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:02:36,437 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139821138076952 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:02:36,437 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139821138127616 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:02:36,437 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:02:36,438 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:02:39,441 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:02:39,442 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 20:02:39,442 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 20:02:39,454 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:02:39,455 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139821138077168 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:02:39,455 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139821138127544 for <Subprocess at 139821138005600 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:02:39,455 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:02:39,455 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:02:40,456 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 20:04:16,795 CRIT Supervisor running as root (no user in config file)
+2019-09-03 20:04:16,797 INFO supervisord started with pid 25
+2019-09-03 20:04:17,799 INFO spawned: 'jupyter_notebook' with pid 28
+2019-09-03 20:04:17,800 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:04:17,801 INFO spawned: 'digits_srv' with pid 29
+2019-09-03 20:04:17,802 INFO spawned: 'nginx' with pid 30
+2019-09-03 20:04:17,812 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:04:17,813 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140668284540472 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:04:17,813 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 140668284540616 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:04:17,814 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:04:17,814 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:04:17,814 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 140668284541696 for <Subprocess at 140668284469192 with name nginx in state STARTING> (stderr)>
+2019-09-03 20:04:18,755 DEBG 'jupyter_notebook' stderr output:
+[I 20:04:18.754 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2019-09-03 20:04:18,772 DEBG 'jupyter_notebook' stderr output:
+[W 20:04:18.772 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2019-09-03 20:04:18,779 DEBG 'jupyter_notebook' stderr output:
+[I 20:04:18.779 NotebookApp] Serving notebooks from local directory: /dli
+
+2019-09-03 20:04:18,779 DEBG 'jupyter_notebook' stderr output:
+[I 20:04:18.779 NotebookApp] 0 active kernels 
+[I 20:04:18.779 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/5igxCuzq/
+[I 20:04:18.779 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2019-09-03 20:04:19,780 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 20:04:19,781 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:04:19,781 INFO spawned: 'digits_srv' with pid 42
+2019-09-03 20:04:19,782 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-09-03 20:04:19,793 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:04:19,794 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140668284540760 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:04:19,794 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140668284540688 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:04:19,794 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:04:19,794 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:04:21,797 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:04:21,798 INFO spawned: 'digits_srv' with pid 43
+2019-09-03 20:04:21,809 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:04:21,811 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140668284540184 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:04:21,811 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140668284590848 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:04:21,811 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:04:21,811 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:04:24,815 INFO spawnerr: can't find command 'tensorboard'
+2019-09-03 20:04:24,815 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2019-09-03 20:04:24,816 INFO spawned: 'digits_srv' with pid 44
+2019-09-03 20:04:24,827 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2019-09-03 20:04:24,828 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 140668284540400 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stdout)>
+2019-09-03 20:04:24,828 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 140668284590776 for <Subprocess at 140668284468832 with name digits_srv in state STARTING> (stderr)>
+2019-09-03 20:04:24,828 INFO exited: digits_srv (exit status 1; not expected)
+2019-09-03 20:04:24,828 DEBG received SIGCLD indicating a child quit
+2019-09-03 20:04:25,830 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2019-09-03 20:18:11,662 DEBG 'jupyter_notebook' stderr output:
+[W 20:18:11.662 NotebookApp] 404 GET / (127.0.0.1) 23.64ms referer=None
+
+2019-09-03 20:18:26,841 DEBG 'jupyter_notebook' stderr output:
+[I 20:18:26.840 NotebookApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+
+2019-09-03 20:18:26,843 DEBG 'jupyter_notebook' stderr output:
+[W 20:18:26.842 NotebookApp] Notebook tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb is not trusted
+
+2019-09-03 20:18:30,776 DEBG 'jupyter_notebook' stderr output:
+[I 20:18:30.776 NotebookApp] Kernel started: 9cf1ded5-4c03-467b-9f2c-ac8198a97e24
+
+2019-09-03 20:18:30,812 DEBG 'jupyter_notebook' stderr output:
+[I 20:18:30.812 NotebookApp] 302 GET /5igxCuzq/notebooks/tasks/task2/task/images/DLI%20Header.png (127.0.0.1) 0.76ms
+
+2019-09-03 20:18:31,478 DEBG 'jupyter_notebook' stderr output:
+[I 20:18:31.478 NotebookApp] Adapting to protocol v5.1 for kernel 9cf1ded5-4c03-467b-9f2c-ac8198a97e24
+
+2019-09-03 20:18:35,122 DEBG 'jupyter_notebook' stderr output:
+[W 20:18:35.122 NotebookApp] 404 GET /static/base/images/favicon.ico (127.0.0.1) 1.35ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:18:35,123 DEBG 'jupyter_notebook' stderr output:
+[W 20:18:35.123 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 0.98ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:18:35,168 DEBG 'jupyter_notebook' stderr output:
+[W 20:18:35.168 NotebookApp] 404 GET /static/base/images/favicon.ico (127.0.0.1) 0.94ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:18:53,666 DEBG 'jupyter_notebook' stderr output:
+[W 20:18:53.665 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.21ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:19:08,056 DEBG 'jupyter_notebook' stderr output:
+[W 20:19:08.056 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.14ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:19:19,088 DEBG 'jupyter_notebook' stderr output:
+[W 20:19:19.088 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.27ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:19:38,120 DEBG 'jupyter_notebook' stderr output:
+[I 20:19:38.120 NotebookApp] Kernel restarted: 9cf1ded5-4c03-467b-9f2c-ac8198a97e24
+
+2019-09-03 20:19:38,992 DEBG 'jupyter_notebook' stderr output:
+[I 20:19:38.992 NotebookApp] Adapting to protocol v5.1 for kernel 9cf1ded5-4c03-467b-9f2c-ac8198a97e24
+
+2019-09-03 20:19:39,179 DEBG 'jupyter_notebook' stderr output:
+[W 20:19:39.179 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.51ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:20:01,962 DEBG 'jupyter_notebook' stderr output:
+[W 20:20:01.961 NotebookApp] 404 GET / (127.0.0.1) 1.29ms referer=None
+
+2019-09-03 20:20:11,248 DEBG 'jupyter_notebook' stderr output:
+[W 20:20:11.247 NotebookApp] Notebook tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb is not trusted
+
+2019-09-03 20:20:14,715 DEBG 'jupyter_notebook' stderr output:
+[I 20:20:14.715 NotebookApp] 302 GET /5igxCuzq/notebooks/tasks/task2/task/images/DLI%20Header.png (127.0.0.1) 0.96ms
+
+2019-09-03 20:20:14,999 DEBG 'jupyter_notebook' stderr output:
+[I 20:20:14.998 NotebookApp] Adapting to protocol v5.1 for kernel 9cf1ded5-4c03-467b-9f2c-ac8198a97e24
+
+2019-09-03 20:20:15,410 DEBG 'jupyter_notebook' stderr output:
+[W 20:20:15.410 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.24ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:20:15,511 DEBG 'jupyter_notebook' stderr output:
+[W 20:20:15.511 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.33ms referer=http://52.40.136.0:9380/5igxCuzq/notebooks/tasks/task2/task/Custom%20CUDA%20Kernels%20in%20Python%20with%20Numba.ipynb
+
+2019-09-03 20:20:30,623 DEBG 'jupyter_notebook' stderr output:
+[I 20:20:30.622 NotebookApp] Saving file at /tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb
+
+2019-09-03 20:20:39,490 DEBG 'jupyter_notebook' stderr output:
+[I 20:20:39.490 NotebookApp] Saving file at /tasks/task2/task/Custom CUDA Kernels in Python with Numba.ipynb
+
+2020-06-15 01:22:46,497 CRIT Supervisor running as root (no user in config file)
+2020-06-15 01:22:46,499 INFO supervisord started with pid 24
+2020-06-15 01:22:47,500 INFO spawned: 'jupyter_notebook' with pid 27
+2020-06-15 01:22:47,501 INFO spawnerr: can't find command 'tensorboard'
+2020-06-15 01:22:47,502 INFO spawned: 'digits_srv' with pid 28
+2020-06-15 01:22:47,503 INFO spawned: 'nginx' with pid 29
+2020-06-15 01:22:47,517 DEBG fd 18 closed, stopped monitoring <POutputDispatcher at 139981889120952 for <Subprocess at 139981889048448 with name nginx in state STARTING> (stderr)>
+2020-06-15 01:22:47,518 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+2020-06-15 01:22:47,518 DEBG 'digits_srv' stderr output:
+
+
+2020-06-15 01:22:47,520 DEBG fd 13 closed, stopped monitoring <POutputDispatcher at 139981889119872 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stderr)>
+2020-06-15 01:22:47,520 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139981889119728 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stdout)>
+2020-06-15 01:22:47,521 INFO exited: digits_srv (exit status 1; not expected)
+2020-06-15 01:22:47,521 DEBG received SIGCLD indicating a child quit
+2020-06-15 01:22:48,271 DEBG 'jupyter_notebook' stderr output:
+[I 01:22:48.270 NotebookApp] Writing notebook server cookie secret to /root/.local/share/jupyter/runtime/notebook_cookie_secret
+
+2020-06-15 01:22:48,284 DEBG 'jupyter_notebook' stderr output:
+[W 01:22:48.283 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+
+2020-06-15 01:22:48,289 DEBG 'jupyter_notebook' stderr output:
+[I 01:22:48.289 NotebookApp] Serving notebooks from local directory: /dli
+
+2020-06-15 01:22:48,289 DEBG 'jupyter_notebook' stderr output:
+[I 01:22:48.289 NotebookApp] 0 active kernels 
+[I 01:22:48.289 NotebookApp] The Jupyter Notebook is running at: http://0.0.0.0:8888/Z9vYVYpH/
+[I 01:22:48.289 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+
+2020-06-15 01:22:49,290 INFO success: jupyter_notebook entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-06-15 01:22:49,291 INFO spawnerr: can't find command 'tensorboard'
+2020-06-15 01:22:49,292 INFO spawned: 'digits_srv' with pid 37
+2020-06-15 01:22:49,292 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-06-15 01:22:49,301 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2020-06-15 01:22:49,302 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139981889120016 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stdout)>
+2020-06-15 01:22:49,302 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139981889119944 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stderr)>
+2020-06-15 01:22:49,302 INFO exited: digits_srv (exit status 1; not expected)
+2020-06-15 01:22:49,302 DEBG received SIGCLD indicating a child quit
+2020-06-15 01:22:51,305 INFO spawnerr: can't find command 'tensorboard'
+2020-06-15 01:22:51,306 INFO spawned: 'digits_srv' with pid 38
+2020-06-15 01:22:51,315 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2020-06-15 01:22:51,316 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139981889119440 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stdout)>
+2020-06-15 01:22:51,316 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139981889170320 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stderr)>
+2020-06-15 01:22:51,316 INFO exited: digits_srv (exit status 1; not expected)
+2020-06-15 01:22:51,317 DEBG received SIGCLD indicating a child quit
+2020-06-15 01:22:54,320 INFO spawnerr: can't find command 'tensorboard'
+2020-06-15 01:22:54,320 INFO gave up: tensorboard entered FATAL state, too many start retries too quickly
+2020-06-15 01:22:54,321 INFO spawned: 'digits_srv' with pid 39
+2020-06-15 01:22:54,330 DEBG 'digits_srv' stderr output:
+/usr/bin/python: No module named digits
+
+2020-06-15 01:22:54,331 DEBG fd 9 closed, stopped monitoring <POutputDispatcher at 139981889119656 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stdout)>
+2020-06-15 01:22:54,332 DEBG fd 15 closed, stopped monitoring <POutputDispatcher at 139981889170248 for <Subprocess at 139981889048088 with name digits_srv in state STARTING> (stderr)>
+2020-06-15 01:22:54,332 INFO exited: digits_srv (exit status 1; not expected)
+2020-06-15 01:22:54,332 DEBG received SIGCLD indicating a child quit
+2020-06-15 01:22:55,333 INFO gave up: digits_srv entered FATAL state, too many start retries too quickly
+2020-06-15 01:23:16,557 DEBG 'jupyter_notebook' stderr output:
+[W 01:23:16.557 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 4.15ms referer=None
+
+2020-06-15 01:23:31,273 DEBG 'jupyter_notebook' stderr output:
+[I 01:23:31.273 NotebookApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+
+2020-06-15 01:23:31,275 DEBG 'jupyter_notebook' stderr output:
+[W 01:23:31.274 NotebookApp] Notebook tasks/task1/task/Introduction to CUDA Python with Numba.ipynb is not trusted
+
+2020-06-15 01:23:34,096 DEBG 'jupyter_notebook' stderr output:
+[I 01:23:34.095 NotebookApp] 302 GET /Z9vYVYpH/notebooks/tasks/task1/task/images/numba_flowchart.png (127.0.0.1) 0.60ms
+
+2020-06-15 01:23:34,096 DEBG 'jupyter_notebook' stderr output:
+[I 01:23:34.096 NotebookApp] 302 GET /Z9vYVYpH/notebooks/tasks/task1/task/images/DLI%20Header.png (127.0.0.1) 0.55ms
+
+2020-06-15 01:23:34,397 DEBG 'jupyter_notebook' stderr output:
+[I 01:23:34.397 NotebookApp] Kernel started: 6e4831c2-2626-481c-ab57-51d8c1697821
+
+2020-06-15 01:23:35,305 DEBG 'jupyter_notebook' stderr output:
+[I 01:23:35.304 NotebookApp] Adapting to protocol v5.1 for kernel 6e4831c2-2626-481c-ab57-51d8c1697821
+
+2020-06-15 01:23:36,337 DEBG 'jupyter_notebook' stderr output:
+[W 01:23:36.337 NotebookApp] 404 GET /static/base/images/favicon.ico (127.0.0.1) 2.27ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 01:24:27,576 DEBG 'jupyter_notebook' stderr output:
+[W 01:24:27.576 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 01:24:27,908 DEBG 'jupyter_notebook' stderr output:
+[W 01:24:27.908 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 01:25:35,598 DEBG 'jupyter_notebook' stderr output:
+[I 01:25:35.598 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:26:31,513 DEBG 'jupyter_notebook' stderr output:
+[W 01:26:31.513 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.07ms referer=None
+
+2020-06-15 01:26:31,781 DEBG 'jupyter_notebook' stderr output:
+[W 01:26:31.781 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.00ms referer=None
+
+2020-06-15 01:28:35,347 DEBG 'jupyter_notebook' stderr output:
+[W 01:28:35.347 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 01:28:35,664 DEBG 'jupyter_notebook' stderr output:
+[W 01:28:35.664 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 01:30:39,509 DEBG 'jupyter_notebook' stderr output:
+[W 01:30:39.508 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 01:30:39,869 DEBG 'jupyter_notebook' stderr output:
+[W 01:30:39.869 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.98ms referer=None
+
+2020-06-15 01:32:44,400 DEBG 'jupyter_notebook' stderr output:
+[W 01:32:44.400 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 01:32:44,696 DEBG 'jupyter_notebook' stderr output:
+[W 01:32:44.696 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.06ms referer=None
+
+2020-06-15 01:34:13,369 DEBG 'jupyter_notebook' stderr output:
+[W 01:34:13.369 NotebookApp] 404 GET / (127.0.0.1) 1.06ms referer=None
+
+2020-06-15 01:34:48,807 DEBG 'jupyter_notebook' stderr output:
+[W 01:34:48.806 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.08ms referer=None
+
+2020-06-15 01:34:49,027 DEBG 'jupyter_notebook' stderr output:
+[W 01:34:49.026 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.99ms referer=None
+
+2020-06-15 01:36:53,237 DEBG 'jupyter_notebook' stderr output:
+[W 01:36:53.237 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 01:36:53,517 DEBG 'jupyter_notebook' stderr output:
+[W 01:36:53.517 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 01:38:14,546 DEBG 'jupyter_notebook' stderr output:
+[W 01:38:14.546 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.08ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 01:38:16,099 DEBG 'jupyter_notebook' stderr output:
+[W 01:38:16.099 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.00ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 01:38:18,434 DEBG 'jupyter_notebook' stderr output:
+[W 01:38:18.434 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 0.99ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 01:39:00,752 DEBG 'jupyter_notebook' stderr output:
+[W 01:39:00.752 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 01:39:01,070 DEBG 'jupyter_notebook' stderr output:
+[W 01:39:01.070 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 01:39:19,991 DEBG 'jupyter_notebook' stderr output:
+[W 01:39:19.991 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.03ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 01:39:34,936 DEBG 'jupyter_notebook' stderr output:
+[I 01:39:34.936 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:41:05,287 DEBG 'jupyter_notebook' stderr output:
+[W 01:41:05.287 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.16ms referer=None
+
+2020-06-15 01:41:05,655 DEBG 'jupyter_notebook' stderr output:
+[W 01:41:05.655 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 01:41:35,562 DEBG 'jupyter_notebook' stderr output:
+[I 01:41:35.562 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:43:09,895 DEBG 'jupyter_notebook' stderr output:
+[W 01:43:09.895 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 01:43:10,257 DEBG 'jupyter_notebook' stderr output:
+[W 01:43:10.256 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 01:43:35,579 DEBG 'jupyter_notebook' stderr output:
+[I 01:43:35.578 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:45:14,876 DEBG 'jupyter_notebook' stderr output:
+[W 01:45:14.876 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 01:45:15,176 DEBG 'jupyter_notebook' stderr output:
+[W 01:45:15.176 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.96ms referer=None
+
+2020-06-15 01:45:35,573 DEBG 'jupyter_notebook' stderr output:
+[I 01:45:35.573 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:47:20,275 DEBG 'jupyter_notebook' stderr output:
+[W 01:47:20.275 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 01:47:20,575 DEBG 'jupyter_notebook' stderr output:
+[W 01:47:20.574 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.08ms referer=None
+
+2020-06-15 01:47:35,715 DEBG 'jupyter_notebook' stderr output:
+[I 01:47:35.715 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:49:25,139 DEBG 'jupyter_notebook' stderr output:
+[W 01:49:25.138 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 01:49:25,529 DEBG 'jupyter_notebook' stderr output:
+[W 01:49:25.529 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.08ms referer=None
+
+2020-06-15 01:49:36,118 DEBG 'jupyter_notebook' stderr output:
+[I 01:49:36.118 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:51:30,103 DEBG 'jupyter_notebook' stderr output:
+[W 01:51:30.103 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 01:51:30,477 DEBG 'jupyter_notebook' stderr output:
+[W 01:51:30.477 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 01:53:35,237 DEBG 'jupyter_notebook' stderr output:
+[W 01:53:35.237 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 01:53:35,543 DEBG 'jupyter_notebook' stderr output:
+[W 01:53:35.543 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.06ms referer=None
+
+2020-06-15 01:55:40,422 DEBG 'jupyter_notebook' stderr output:
+[W 01:55:40.422 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 01:55:40,777 DEBG 'jupyter_notebook' stderr output:
+[W 01:55:40.777 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 01:57:45,817 DEBG 'jupyter_notebook' stderr output:
+[W 01:57:45.817 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 01:57:46,114 DEBG 'jupyter_notebook' stderr output:
+[W 01:57:46.114 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 01:59:36,128 DEBG 'jupyter_notebook' stderr output:
+[I 01:59:36.127 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 01:59:51,170 DEBG 'jupyter_notebook' stderr output:
+[W 01:59:51.170 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 01:59:51,482 DEBG 'jupyter_notebook' stderr output:
+[W 01:59:51.482 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:01:36,110 DEBG 'jupyter_notebook' stderr output:
+[I 02:01:36.109 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:01:56,571 DEBG 'jupyter_notebook' stderr output:
+[W 02:01:56.570 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:01:56,879 DEBG 'jupyter_notebook' stderr output:
+[W 02:01:56.879 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.06ms referer=None
+
+2020-06-15 02:03:36,134 DEBG 'jupyter_notebook' stderr output:
+[I 02:03:36.134 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:04:01,598 DEBG 'jupyter_notebook' stderr output:
+[W 02:04:01.598 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:04:01,891 DEBG 'jupyter_notebook' stderr output:
+[W 02:04:01.891 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.35ms referer=None
+
+2020-06-15 02:05:36,087 DEBG 'jupyter_notebook' stderr output:
+[I 02:05:36.086 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:06:06,706 DEBG 'jupyter_notebook' stderr output:
+[W 02:06:06.706 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 02:06:07,002 DEBG 'jupyter_notebook' stderr output:
+[W 02:06:07.002 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.93ms referer=None
+
+2020-06-15 02:08:11,794 DEBG 'jupyter_notebook' stderr output:
+[W 02:08:11.794 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 02:08:12,097 DEBG 'jupyter_notebook' stderr output:
+[W 02:08:12.096 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 02:09:35,626 DEBG 'jupyter_notebook' stderr output:
+[I 02:09:35.626 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:10:16,468 DEBG 'jupyter_notebook' stderr output:
+[W 02:10:16.467 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 02:10:16,755 DEBG 'jupyter_notebook' stderr output:
+[W 02:10:16.754 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.08ms referer=None
+
+2020-06-15 02:12:21,090 DEBG 'jupyter_notebook' stderr output:
+[W 02:12:21.090 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 02:12:21,402 DEBG 'jupyter_notebook' stderr output:
+[W 02:12:21.401 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:14:25,396 DEBG 'jupyter_notebook' stderr output:
+[W 02:14:25.396 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:14:25,682 DEBG 'jupyter_notebook' stderr output:
+[W 02:14:25.681 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.82ms referer=None
+
+2020-06-15 02:15:35,727 DEBG 'jupyter_notebook' stderr output:
+[I 02:15:35.727 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:16:29,635 DEBG 'jupyter_notebook' stderr output:
+[W 02:16:29.635 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 02:16:29,901 DEBG 'jupyter_notebook' stderr output:
+[W 02:16:29.901 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.90ms referer=None
+
+2020-06-15 02:17:35,606 DEBG 'jupyter_notebook' stderr output:
+[I 02:17:35.606 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:18:33,635 DEBG 'jupyter_notebook' stderr output:
+[W 02:18:33.635 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 02:18:33,928 DEBG 'jupyter_notebook' stderr output:
+[W 02:18:33.927 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.95ms referer=None
+
+2020-06-15 02:20:37,776 DEBG 'jupyter_notebook' stderr output:
+[W 02:20:37.776 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 02:20:38,078 DEBG 'jupyter_notebook' stderr output:
+[W 02:20:38.077 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.04ms referer=None
+
+2020-06-15 02:22:41,895 DEBG 'jupyter_notebook' stderr output:
+[W 02:22:41.895 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 02:22:42,209 DEBG 'jupyter_notebook' stderr output:
+[W 02:22:42.209 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.95ms referer=None
+
+2020-06-15 02:23:36,149 DEBG 'jupyter_notebook' stderr output:
+[I 02:23:36.149 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:24:45,705 DEBG 'jupyter_notebook' stderr output:
+[W 02:24:45.705 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 02:24:46,007 DEBG 'jupyter_notebook' stderr output:
+[W 02:24:46.007 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.08ms referer=None
+
+2020-06-15 02:26:49,579 DEBG 'jupyter_notebook' stderr output:
+[W 02:26:49.579 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 02:26:49,890 DEBG 'jupyter_notebook' stderr output:
+[W 02:26:49.890 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 02:28:26,345 DEBG 'jupyter_notebook' stderr output:
+[I 02:28:26.345 NotebookApp] 302 GET /Z9vYVYpH/ (127.0.0.1) 0.39ms
+
+2020-06-15 02:28:36,708 DEBG 'jupyter_notebook' stderr output:
+[I 02:28:36.708 NotebookApp] New terminal with automatic name: 1
+
+2020-06-15 02:28:53,405 DEBG 'jupyter_notebook' stderr output:
+[W 02:28:53.405 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.19ms referer=None
+
+2020-06-15 02:28:53,692 DEBG 'jupyter_notebook' stderr output:
+[W 02:28:53.692 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 02:29:35,502 DEBG 'jupyter_notebook' stderr output:
+[I 02:29:35.501 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:31:00,130 DEBG 'jupyter_notebook' stderr output:
+[W 02:31:00.130 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.15ms referer=None
+
+2020-06-15 02:31:00,408 DEBG 'jupyter_notebook' stderr output:
+[W 02:31:00.408 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 02:31:36,333 DEBG 'jupyter_notebook' stderr output:
+[I 02:31:36.333 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:33:04,378 DEBG 'jupyter_notebook' stderr output:
+[W 02:33:04.378 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 02:33:04,657 DEBG 'jupyter_notebook' stderr output:
+[W 02:33:04.657 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:35:08,625 DEBG 'jupyter_notebook' stderr output:
+[W 02:35:08.624 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 02:35:08,870 DEBG 'jupyter_notebook' stderr output:
+[W 02:35:08.870 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 02:35:35,806 DEBG 'jupyter_notebook' stderr output:
+[I 02:35:35.806 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:37:12,487 DEBG 'jupyter_notebook' stderr output:
+[W 02:37:12.487 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.17ms referer=None
+
+2020-06-15 02:37:12,776 DEBG 'jupyter_notebook' stderr output:
+[W 02:37:12.776 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.16ms referer=None
+
+2020-06-15 02:39:19,014 DEBG 'jupyter_notebook' stderr output:
+[W 02:39:19.014 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:39:19,312 DEBG 'jupyter_notebook' stderr output:
+[W 02:39:19.312 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.05ms referer=None
+
+2020-06-15 02:39:35,804 DEBG 'jupyter_notebook' stderr output:
+[I 02:39:35.804 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:41:22,720 DEBG 'jupyter_notebook' stderr output:
+[W 02:41:22.720 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 02:41:22,988 DEBG 'jupyter_notebook' stderr output:
+[W 02:41:22.988 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.96ms referer=None
+
+2020-06-15 02:43:26,370 DEBG 'jupyter_notebook' stderr output:
+[W 02:43:26.370 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:43:26,694 DEBG 'jupyter_notebook' stderr output:
+[W 02:43:26.694 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:45:33,300 DEBG 'jupyter_notebook' stderr output:
+[W 02:45:33.300 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:45:33,549 DEBG 'jupyter_notebook' stderr output:
+[W 02:45:33.548 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:45:35,782 DEBG 'jupyter_notebook' stderr output:
+[I 02:45:35.782 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:47:35,945 DEBG 'jupyter_notebook' stderr output:
+[I 02:47:35.945 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:47:37,438 DEBG 'jupyter_notebook' stderr output:
+[W 02:47:37.438 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 02:47:37,734 DEBG 'jupyter_notebook' stderr output:
+[W 02:47:37.733 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.82ms referer=None
+
+2020-06-15 02:49:41,524 DEBG 'jupyter_notebook' stderr output:
+[W 02:49:41.523 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 02:49:41,768 DEBG 'jupyter_notebook' stderr output:
+[W 02:49:41.767 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 02:51:31,626 DEBG 'jupyter_notebook' stderr output:
+[W 02:51:31.626 NotebookApp] Deprecated files/ URL: tasks/task1/task/files/section1.tar.gz
+
+2020-06-15 02:51:31,627 DEBG 'jupyter_notebook' stderr output:
+[W 02:51:31.627 NotebookApp] 404 GET /Z9vYVYpH/notebooks/tasks/task1/task/files/section1.tar.gz (127.0.0.1) 1.33ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 02:51:35,965 DEBG 'jupyter_notebook' stderr output:
+[I 02:51:35.965 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:51:46,118 DEBG 'jupyter_notebook' stderr output:
+[W 02:51:46.118 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 02:51:46,386 DEBG 'jupyter_notebook' stderr output:
+[W 02:51:46.386 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:53:51,274 DEBG 'jupyter_notebook' stderr output:
+[W 02:53:51.273 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.15ms referer=None
+
+2020-06-15 02:53:51,535 DEBG 'jupyter_notebook' stderr output:
+[W 02:53:51.535 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 02:55:35,958 DEBG 'jupyter_notebook' stderr output:
+[I 02:55:35.958 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 02:55:55,737 DEBG 'jupyter_notebook' stderr output:
+[W 02:55:55.736 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 02:55:56,020 DEBG 'jupyter_notebook' stderr output:
+[W 02:55:56.019 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.06ms referer=None
+
+2020-06-15 02:58:00,097 DEBG 'jupyter_notebook' stderr output:
+[W 02:58:00.097 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 02:58:00,331 DEBG 'jupyter_notebook' stderr output:
+[W 02:58:00.331 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.07ms referer=None
+
+2020-06-15 02:59:35,962 DEBG 'jupyter_notebook' stderr output:
+[I 02:59:35.962 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:00:04,538 DEBG 'jupyter_notebook' stderr output:
+[W 03:00:04.538 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 03:00:04,770 DEBG 'jupyter_notebook' stderr output:
+[W 03:00:04.769 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.95ms referer=None
+
+2020-06-15 03:01:35,975 DEBG 'jupyter_notebook' stderr output:
+[I 03:01:35.975 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:02:08,970 DEBG 'jupyter_notebook' stderr output:
+[W 03:02:08.970 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.16ms referer=None
+
+2020-06-15 03:02:09,236 DEBG 'jupyter_notebook' stderr output:
+[W 03:02:09.235 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 03:03:15,292 DEBG 'jupyter_notebook' stderr output:
+[W 03:03:15.292 NotebookApp] 403 POST /boaform/admin/formLogin (127.0.0.1): '_xsrf' argument missing from POST
+
+2020-06-15 03:03:15,293 DEBG 'jupyter_notebook' stderr output:
+[W 03:03:15.293 NotebookApp] 403 POST /boaform/admin/formLogin (127.0.0.1) 1.38ms referer=http://18.232.181.112:80/admin/login.asp
+
+2020-06-15 03:03:36,979 DEBG 'jupyter_notebook' stderr output:
+[I 03:03:36.979 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:04:13,370 DEBG 'jupyter_notebook' stderr output:
+[W 03:04:13.369 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 03:04:13,697 DEBG 'jupyter_notebook' stderr output:
+[W 03:04:13.697 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 03:05:35,976 DEBG 'jupyter_notebook' stderr output:
+[I 03:05:35.976 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:06:17,775 DEBG 'jupyter_notebook' stderr output:
+[W 03:06:17.775 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 03:06:18,079 DEBG 'jupyter_notebook' stderr output:
+[W 03:06:18.078 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 03:07:35,977 DEBG 'jupyter_notebook' stderr output:
+[I 03:07:35.977 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:08:22,187 DEBG 'jupyter_notebook' stderr output:
+[W 03:08:22.187 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 03:08:22,495 DEBG 'jupyter_notebook' stderr output:
+[W 03:08:22.495 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.06ms referer=None
+
+2020-06-15 03:09:35,983 DEBG 'jupyter_notebook' stderr output:
+[I 03:09:35.983 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:10:26,335 DEBG 'jupyter_notebook' stderr output:
+[W 03:10:26.335 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 03:10:26,565 DEBG 'jupyter_notebook' stderr output:
+[W 03:10:26.565 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.82ms referer=None
+
+2020-06-15 03:11:18,907 DEBG 'jupyter_notebook' stderr output:
+[I 03:11:18.907 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:11:19,259 DEBG 'jupyter_notebook' stderr output:
+[I 03:11:19.258 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:11:19,526 DEBG 'jupyter_notebook' stderr output:
+[I 03:11:19.525 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:11:35,348 DEBG 'jupyter_notebook' stderr output:
+[I 03:11:35.348 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:12:20,884 DEBG 'jupyter_notebook' stderr output:
+[I 03:12:20.884 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:12:21,218 DEBG 'jupyter_notebook' stderr output:
+[I 03:12:21.218 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:12:21,499 DEBG 'jupyter_notebook' stderr output:
+[I 03:12:21.499 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:12:21,734 DEBG 'jupyter_notebook' stderr output:
+[I 03:12:21.734 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:12:35,700 DEBG 'jupyter_notebook' stderr output:
+[W 03:12:35.700 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 03:12:35,971 DEBG 'jupyter_notebook' stderr output:
+[W 03:12:35.971 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.93ms referer=None
+
+2020-06-15 03:12:59,465 DEBG 'jupyter_notebook' stderr output:
+[W 03:12:59.464 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 03:13:32,957 DEBG 'jupyter_notebook' stderr output:
+[I 03:13:32.957 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:13:33,231 DEBG 'jupyter_notebook' stderr output:
+[I 03:13:33.231 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:13:33,630 DEBG 'jupyter_notebook' stderr output:
+[I 03:13:33.630 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:13:37,207 DEBG 'jupyter_notebook' stderr output:
+[W 03:13:37.207 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 03:14:41,172 DEBG 'jupyter_notebook' stderr output:
+[W 03:14:41.172 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 03:14:41,471 DEBG 'jupyter_notebook' stderr output:
+[W 03:14:41.471 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 03:15:35,313 DEBG 'jupyter_notebook' stderr output:
+[I 03:15:35.313 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:15:59,709 DEBG 'jupyter_notebook' stderr output:
+[I 03:15:59.709 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:16:00,640 DEBG 'jupyter_notebook' stderr output:
+[I 03:16:00.640 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:16:09,980 DEBG 'jupyter_notebook' stderr output:
+[I 03:16:09.979 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:16:10,213 DEBG 'jupyter_notebook' stderr output:
+[I 03:16:10.212 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:16:10,686 DEBG 'jupyter_notebook' stderr output:
+[I 03:16:10.685 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:16:14,525 DEBG 'jupyter_notebook' stderr output:
+[W 03:16:14.525 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 03:16:46,198 DEBG 'jupyter_notebook' stderr output:
+[W 03:16:46.198 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 03:16:46,490 DEBG 'jupyter_notebook' stderr output:
+[W 03:16:46.490 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.06ms referer=None
+
+2020-06-15 03:17:48,331 DEBG 'jupyter_notebook' stderr output:
+[I 03:17:48.331 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:17:48,666 DEBG 'jupyter_notebook' stderr output:
+[I 03:17:48.666 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:17:48,782 DEBG 'jupyter_notebook' stderr output:
+[I 03:17:48.782 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:17:48,870 DEBG 'jupyter_notebook' stderr output:
+[I 03:17:48.870 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:17:49,184 DEBG 'jupyter_notebook' stderr output:
+[I 03:17:49.184 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:17:52,661 DEBG 'jupyter_notebook' stderr output:
+[W 03:17:52.660 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 03:18:51,107 DEBG 'jupyter_notebook' stderr output:
+[W 03:18:51.107 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 03:18:51,445 DEBG 'jupyter_notebook' stderr output:
+[W 03:18:51.445 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.07ms referer=None
+
+2020-06-15 03:19:36,197 DEBG 'jupyter_notebook' stderr output:
+[I 03:19:36.197 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:20:55,877 DEBG 'jupyter_notebook' stderr output:
+[W 03:20:55.877 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 03:20:56,159 DEBG 'jupyter_notebook' stderr output:
+[W 03:20:56.159 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.08ms referer=None
+
+2020-06-15 03:21:35,986 DEBG 'jupyter_notebook' stderr output:
+[I 03:21:35.986 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:23:01,302 DEBG 'jupyter_notebook' stderr output:
+[W 03:23:01.302 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 03:23:01,606 DEBG 'jupyter_notebook' stderr output:
+[W 03:23:01.606 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 03:23:36,192 DEBG 'jupyter_notebook' stderr output:
+[I 03:23:36.192 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:25:06,029 DEBG 'jupyter_notebook' stderr output:
+[W 03:25:06.029 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 03:25:06,324 DEBG 'jupyter_notebook' stderr output:
+[W 03:25:06.324 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.84ms referer=None
+
+2020-06-15 03:25:36,874 DEBG 'jupyter_notebook' stderr output:
+[I 03:25:36.874 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:26:09,886 DEBG 'jupyter_notebook' stderr output:
+[I 03:26:09.886 NotebookApp] 302 GET /Z9vYVYpH/notebooks/tasks/task1/task/images/DLI%20Header.png (127.0.0.1) 0.77ms
+
+2020-06-15 03:26:10,358 DEBG 'jupyter_notebook' stderr output:
+[I 03:26:10.357 NotebookApp] 302 GET /Z9vYVYpH/notebooks/tasks/task1/task/images/numba_flowchart.png (127.0.0.1) 0.78ms
+
+2020-06-15 03:26:12,769 DEBG 'jupyter_notebook' stderr output:
+[I 03:26:12.769 NotebookApp] Adapting to protocol v5.1 for kernel 6e4831c2-2626-481c-ab57-51d8c1697821
+
+2020-06-15 03:26:14,193 DEBG 'jupyter_notebook' stderr output:
+[W 03:26:14.193 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.05ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 03:26:14,196 DEBG 'jupyter_notebook' stderr output:
+[W 03:26:14.195 NotebookApp] 404 GET /static/base/images/favicon.ico (127.0.0.1) 0.85ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 03:26:14,451 DEBG 'jupyter_notebook' stderr output:
+[W 03:26:14.451 NotebookApp] 404 GET /static/base/images/favicon.ico (127.0.0.1) 0.92ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 03:27:10,793 DEBG 'jupyter_notebook' stderr output:
+[W 03:27:10.792 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 03:27:11,090 DEBG 'jupyter_notebook' stderr output:
+[W 03:27:11.090 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.13ms referer=None
+
+2020-06-15 03:29:15,584 DEBG 'jupyter_notebook' stderr output:
+[W 03:29:15.583 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.08ms referer=None
+
+2020-06-15 03:29:15,856 DEBG 'jupyter_notebook' stderr output:
+[W 03:29:15.856 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 03:31:20,731 DEBG 'jupyter_notebook' stderr output:
+[W 03:31:20.730 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 03:31:21,022 DEBG 'jupyter_notebook' stderr output:
+[W 03:31:21.022 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.85ms referer=None
+
+2020-06-15 03:33:28,485 DEBG 'jupyter_notebook' stderr output:
+[W 03:33:28.485 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.11ms referer=None
+
+2020-06-15 03:33:28,757 DEBG 'jupyter_notebook' stderr output:
+[W 03:33:28.757 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 0.96ms referer=None
+
+2020-06-15 03:35:33,248 DEBG 'jupyter_notebook' stderr output:
+[W 03:35:33.248 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 03:35:33,516 DEBG 'jupyter_notebook' stderr output:
+[W 03:35:33.516 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.10ms referer=None
+
+2020-06-15 03:36:13,950 DEBG 'jupyter_notebook' stderr output:
+[I 03:36:13.950 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:37:38,157 DEBG 'jupyter_notebook' stderr output:
+[W 03:37:38.157 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 03:37:38,427 DEBG 'jupyter_notebook' stderr output:
+[W 03:37:38.427 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
+2020-06-15 03:37:59,453 DEBG 'jupyter_notebook' stderr output:
+[W 03:37:59.452 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.04ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 03:38:00,494 DEBG 'jupyter_notebook' stderr output:
+[W 03:38:00.494 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.03ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 03:38:04,062 DEBG 'jupyter_notebook' stderr output:
+[W 03:38:04.062 NotebookApp] 404 GET /static/base/images/favicon-busy.ico (127.0.0.1) 1.08ms referer=http://ec2-18-232-181-112.compute-1.amazonaws.com/Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb
+
+2020-06-15 03:38:13,829 DEBG 'jupyter_notebook' stderr output:
+[I 03:38:13.829 NotebookApp] Saving file at /tasks/task1/task/Introduction to CUDA Python with Numba.ipynb
+
+2020-06-15 03:38:34,741 DEBG 'jupyter_notebook' stderr output:
+[I 03:38:34.740 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:38:35,093 DEBG 'jupyter_notebook' stderr output:
+[I 03:38:35.093 NotebookApp] Saving file at /tasks/task1/task/assessment/definitions.py
+
+2020-06-15 03:38:51,828 DEBG 'jupyter_notebook' stderr output:
+[I 03:38:51.828 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:38:52,276 DEBG 'jupyter_notebook' stderr output:
+[I 03:38:52.276 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:38:52,596 DEBG 'jupyter_notebook' stderr output:
+[I 03:38:52.596 NotebookApp] Saving file at /tasks/task1/task/assessment/calls.py
+
+2020-06-15 03:38:58,906 DEBG 'jupyter_notebook' stderr output:
+[W 03:38:58.906 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.15ms referer=None
+
+2020-06-15 03:39:43,310 DEBG 'jupyter_notebook' stderr output:
+[W 03:39:43.310 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.16ms referer=None
+
+2020-06-15 03:39:44,446 DEBG 'jupyter_notebook' stderr output:
+[W 03:39:44.445 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.15ms referer=None
+
+2020-06-15 03:41:48,440 DEBG 'jupyter_notebook' stderr output:
+[W 03:41:48.440 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 03:41:49,436 DEBG 'jupyter_notebook' stderr output:
+[W 03:41:49.435 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.14ms referer=None
+
+2020-06-15 03:43:53,728 DEBG 'jupyter_notebook' stderr output:
+[W 03:43:53.728 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.12ms referer=None
+
+2020-06-15 03:43:54,607 DEBG 'jupyter_notebook' stderr output:
+[W 03:43:54.607 NotebookApp] 405 HEAD /Z9vYVYpH/notebooks/tasks/task1/task/Introduction%20to%20CUDA%20Python%20with%20Numba.ipynb (127.0.0.1) 1.09ms referer=None
+
